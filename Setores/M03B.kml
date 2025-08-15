@@ -1,0 +1,4382 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="M03B" id="M03B">
+	<SimpleField name="folders" type="string"></SimpleField>
+	<SimpleField name="altitude" type="float"></SimpleField>
+	<SimpleField name="alt_mode" type="string"></SimpleField>
+	<SimpleField name="time_begin" type="string"></SimpleField>
+	<SimpleField name="time_end" type="string"></SimpleField>
+	<SimpleField name="time_when" type="string"></SimpleField>
+</Schema>
+<Folder><name>M03B</name>
+  <Placemark>
+	<name>2025-08-07 07:07:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623668,-27.112885,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:07:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623965,-27.113533,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:07:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624472,-27.113865,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:07:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62464,-27.114008,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:08:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624435,-27.114505,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:09:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624422,-27.11451,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:10:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624195,-27.115062,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:11:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623973,-27.116083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:12:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623968,-27.116638,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:12:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623383,-27.116733,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:12:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622905,-27.116782,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:12:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62281,-27.116715,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:13:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622817,-27.116307,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:13:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622835,-27.11587,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:14:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623378,-27.115818,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:14:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623905,-27.115717,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:15:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62402,-27.115165,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:15:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623637,-27.114992,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:15:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623637,-27.114992,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:16:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623593,-27.11413,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:16:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.6238,-27.114047,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:16:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623778,-27.113995,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:16:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623797,-27.114073,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:16:55</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62382,-27.114107,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:17:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623752,-27.113965,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:17:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624087,-27.113605,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:17:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624678,-27.114057,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:18:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624563,-27.113972,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:18:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624497,-27.113927,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:18:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623948,-27.113605,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:18:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623925,-27.113688,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:19:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623665,-27.114135,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:19:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622978,-27.114232,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:20:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622763,-27.114335,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:20:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622807,-27.114432,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:21:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623015,-27.115005,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:21:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623483,-27.114912,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:21:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623673,-27.114948,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:21:43</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623627,-27.114942,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:22:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622797,-27.115007,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:22:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622912,-27.115072,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:22:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622913,-27.115078,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:22:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622898,-27.115018,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:22:40</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622805,-27.115003,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:23:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621925,-27.115168,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:24:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621418,-27.115295,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:24:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621525,-27.115655,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:25:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621643,-27.116412,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:26:55</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621647,-27.116532,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:27:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621717,-27.116825,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:27:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621765,-27.116907,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:27:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62201,-27.116872,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:28:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622315,-27.116837,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:28:55</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622858,-27.116762,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:28:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62288,-27.116678,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:29:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622678,-27.115893,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:29:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622505,-27.115955,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:30:55</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620597,-27.11621,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:30:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620577,-27.116242,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:31:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620663,-27.116502,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:31:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620662,-27.116723,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:31:40</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62056,-27.116723,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:32:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619772,-27.11651,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:32:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619535,-27.11649,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:32:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619525,-27.116532,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:33:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619362,-27.117037,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:33:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619038,-27.116948,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:34:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618503,-27.11667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:34:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618608,-27.116338,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:34:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618767,-27.116232,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:35:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619617,-27.116382,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:35:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619643,-27.116172,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:35:55</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619847,-27.115798,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:36:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620593,-27.115938,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:36:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620598,-27.115853,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:36:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620535,-27.115648,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:37:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620493,-27.11539,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:37:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620532,-27.115375,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:38:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621442,-27.115233,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:38:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621468,-27.115163,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:39:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62087,-27.114787,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:40:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620872,-27.114785,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:41:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61983,-27.114582,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:41:46</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61926,-27.114417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:42:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619397,-27.114423,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:42:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619973,-27.114552,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:42:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620053,-27.114748,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:43:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619755,-27.11578,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:43:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619688,-27.115817,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:45:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61881,-27.115568,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:45:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61881,-27.115568,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:45:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618735,-27.11558,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:45:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618772,-27.115595,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:45:43</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61888,-27.11548,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:46:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618923,-27.11531,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:46:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61884,-27.115702,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:46:46</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618653,-27.116255,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:46:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61855,-27.116257,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:47:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.617848,-27.116092,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:47:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61771,-27.116112,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:47:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.617657,-27.116627,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:48:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618383,-27.11676,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:48:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618533,-27.116888,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:49:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61832,-27.11744,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:49:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618235,-27.117452,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:49:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618137,-27.117418,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:49:43</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.617652,-27.117293,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:50:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.617298,-27.117335,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:51:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.616433,-27.117547,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:51:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.616418,-27.117632,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:51:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.616533,-27.118017,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:51:43</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.6172,-27.119123,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:51:55</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.617975,-27.118878,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:52:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618013,-27.11854,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:54:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618437,-27.117428,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:55:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618983,-27.11757,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:55:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619253,-27.117652,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:55:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619317,-27.117725,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:56:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619767,-27.117617,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:56:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61973,-27.117625,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:57:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.6197,-27.117642,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:57:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619768,-27.117645,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:58:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620103,-27.117493,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 07:59:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620107,-27.117502,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:01:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62021,-27.117473,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:01:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620808,-27.117187,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:01:43</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620675,-27.117015,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:02:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619967,-27.11713,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:03:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.6194,-27.117068,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:03:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619108,-27.117853,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:04:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618368,-27.118137,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:04:43</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618063,-27.118342,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:05:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.617982,-27.118965,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:05:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618755,-27.118905,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:06:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619983,-27.11881,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:07:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620957,-27.11869,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:07:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621007,-27.118665,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:07:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620995,-27.118597,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:08:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620892,-27.118135,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:09:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620808,-27.117373,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:09:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620758,-27.116992,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:10:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621718,-27.116885,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:10:43</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622878,-27.116767,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:10:46</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622928,-27.116882,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:11:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622912,-27.117172,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:12:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62301,-27.117785,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:12:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623072,-27.117875,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:13:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623928,-27.117772,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:13:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624127,-27.117745,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:13:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624157,-27.117652,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:14:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624002,-27.117242,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:14:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623783,-27.1173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:15:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62313,-27.117385,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:15:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622948,-27.117472,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:15:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622908,-27.117627,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:16:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622435,-27.117687,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:17:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621537,-27.117795,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:18:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621217,-27.11785,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:18:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620847,-27.117923,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:19:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621025,-27.118695,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:19:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621397,-27.118625,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:20:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.6226,-27.118488,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:22:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623705,-27.11834,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:23:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623877,-27.118315,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:23:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624145,-27.118283,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:23:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624192,-27.118355,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:24:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62426,-27.118945,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:24:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624257,-27.119183,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:24:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624132,-27.119215,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:25:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623617,-27.119253,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:26:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623223,-27.11929,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:27:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62245,-27.119392,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:28:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621385,-27.119502,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:29:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62016,-27.119672,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:30:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.6194,-27.119778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:30:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619383,-27.119857,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:31:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619635,-27.120557,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:31:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619725,-27.12054,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:32:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619773,-27.120513,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:33:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620658,-27.120422,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:34:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620973,-27.120372,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:35:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622015,-27.120248,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:36:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623002,-27.120133,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:36:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623002,-27.120133,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:37:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623483,-27.120105,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:38:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62433,-27.119983,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:38:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624438,-27.120105,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:38:55</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624485,-27.120828,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:38:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62437,-27.12087,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:39:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623948,-27.120893,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:40:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623477,-27.120945,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:41:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622813,-27.121022,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:42:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621872,-27.121138,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:43:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620845,-27.12127,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:44:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619643,-27.121448,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:44:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619643,-27.121527,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:44:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.6197,-27.121747,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:44:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619838,-27.122253,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:45:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62062,-27.122112,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:45:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620612,-27.121992,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:45:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620612,-27.121992,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:46:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62057,-27.121755,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:47:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620412,-27.120662,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:48:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620233,-27.119388,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:48:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620078,-27.11878,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:49:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619633,-27.118845,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:49:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619285,-27.119018,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:50:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619427,-27.120017,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:51:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619645,-27.121205,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:51:40</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61984,-27.122255,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:52:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620958,-27.122098,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:53:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622215,-27.121922,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:53:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622407,-27.121892,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:53:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62242,-27.121817,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:54:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622353,-27.121337,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:55:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62222,-27.120347,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:56:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622138,-27.11977,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:57:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622007,-27.11891,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:58:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621915,-27.11834,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:59:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62178,-27.117413,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 08:59:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621598,-27.116877,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:00:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620733,-27.117067,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:00:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620745,-27.117192,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:00:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620783,-27.11735,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:01:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621037,-27.119227,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:02:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621192,-27.120163,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:03:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621335,-27.120942,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:04:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621418,-27.121558,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:04:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621542,-27.122075,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:04:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62163,-27.12205,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:05:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623033,-27.121857,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:06:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623378,-27.121798,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:07:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624667,-27.12168,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:08:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624737,-27.122143,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:08:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624737,-27.122143,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:08:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624605,-27.122195,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:09:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623653,-27.122308,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:09:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623633,-27.122347,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:09:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623635,-27.122448,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:10:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623812,-27.123647,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:10:40</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623845,-27.124193,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:11:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623338,-27.124205,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:11:43</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62279,-27.12428,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:11:46</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622743,-27.124227,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:11:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622768,-27.124138,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:12:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622775,-27.12415,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:13:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62276,-27.12406,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:13:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62276,-27.12406,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:14:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622632,-27.123045,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:15:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622515,-27.122202,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:15:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622398,-27.121927,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:15:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621478,-27.122125,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:16:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621495,-27.122208,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:17:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621627,-27.12298,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:18:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621702,-27.123448,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:19:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621823,-27.124325,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:19:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621907,-27.125092,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:20:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621437,-27.125092,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:20:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62139,-27.125075,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:21:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620607,-27.124788,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:23:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619363,-27.124697,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:23:46</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619353,-27.125355,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:24:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620148,-27.125397,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:24:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620378,-27.125397,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:24:16</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620415,-27.125357,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:25:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620435,-27.124963,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:25:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620413,-27.124663,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:26:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620235,-27.124608,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:26:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620112,-27.124392,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:27:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61998,-27.123423,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:28:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619788,-27.122475,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:28:46</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619853,-27.122213,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:29:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620643,-27.122197,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:29:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620643,-27.122197,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:30:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620858,-27.123358,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:31:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620865,-27.123838,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:32:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620987,-27.12441,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:33:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621083,-27.12491,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:33:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621038,-27.124957,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:33:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62094,-27.124948,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:33:40</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619367,-27.124497,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:34:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619385,-27.124227,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:35:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619492,-27.123293,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:36:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618988,-27.12233,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:37:04</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618988,-27.122328,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:37:19</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618947,-27.122135,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:37:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619032,-27.122103,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:38:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619465,-27.12315,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:38:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619252,-27.12295,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:39:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618993,-27.122943,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:40:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618652,-27.122903,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:40:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61834,-27.122922,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:40:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618297,-27.123002,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:41:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618335,-27.123303,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:41:22</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618317,-27.123723,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:43:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61922,-27.12377,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:43:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619467,-27.123858,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:43:49</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619388,-27.124557,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:43:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61928,-27.12459,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:44:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61895,-27.124545,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:44:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61847,-27.124492,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:45:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618503,-27.124505,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:46:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618507,-27.124505,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:46:13</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618473,-27.12452,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:46:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618188,-27.124545,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:47:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618172,-27.125273,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:47:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618232,-27.125313,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:48:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.618632,-27.12534,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:48:31</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619368,-27.125272,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:49:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619393,-27.124478,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:49:25</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619577,-27.123108,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:50:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620722,-27.122973,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:51:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622002,-27.122808,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:52:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623153,-27.12269,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:52:37</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623705,-27.12269,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:52:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623778,-27.123517,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:53:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.623523,-27.123525,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:54:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622918,-27.123572,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:55:01</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62196,-27.123718,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:55:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620995,-27.123827,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:56:28</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.620043,-27.123913,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:56:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619978,-27.123667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:56:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619777,-27.122405,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:57:07</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.619823,-27.122232,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:57:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621722,-27.121985,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:58:34</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624668,-27.121565,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 09:58:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624587,-27.121258,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 10:00:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624192,-27.1188,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 10:01:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624032,-27.117023,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 10:02:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624028,-27.117028,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 10:03:55</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.62405,-27.116597,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 10:03:58</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624167,-27.116577,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 10:35:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.624767,-27.116558,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 10:36:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.621087,-27.117012,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 10:37:52</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.617582,-27.116642,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2025-08-07 10:38:10</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#M03B">
+		<SimpleData name="folders"></SimpleData>
+		<SimpleData name="altitude">0</SimpleData>
+		<SimpleData name="alt_mode"></SimpleData>
+		<SimpleData name="time_begin"></SimpleData>
+		<SimpleData name="time_end"></SimpleData>
+		<SimpleData name="time_when"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.61753,-27.11672,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

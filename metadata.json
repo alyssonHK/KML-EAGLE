@@ -1,0 +1,6 @@
+
+{
+  "name": "Editor Interativo de Rotas KML",
+  "description": "Uma aplicação para carregar, visualizar e editar pontos de rotas KML em um mapa, e processá-los com OSRM para obter uma rota ajustada e direções curva-a-curva.",
+  "requestFramePermissions": []
+}
