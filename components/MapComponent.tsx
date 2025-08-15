@@ -1,6 +1,6 @@
 
-import React, { useEffect, useRef } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap, GeoJSON } from 'react-leaflet';
+import React, { useEffect, useRef, useState } from 'react';
+import { MapContainer, TileLayer, Marker, Popup, useMap, GeoJSON, Polyline } from 'react-leaflet';
 import L, { LatLng, LatLngBounds } from 'leaflet';
 import 'leaflet-draw';
 import { KMLPoint } from '../types';
@@ -15,31 +15,65 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
 });
 
-const getMarkerIcon = (isSelected: boolean) => {
-    const iconHtml = `<div class="relative flex items-center justify-center w-8 h-8">
-        <svg viewBox="0 0 384 512" class="${isSelected ? 'text-yellow-400' : 'text-blue-500'}" style="width: 2rem; height: 2rem; filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.5));">
-            <path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67a24 24 0 01-35.464 0zM192 256a64 64 0 100-128 64 64 0 000 128z"/>
-        </svg>
+// Gera ícone numerado menor para os pontos (sequência)
+const getNumberIcon = (index: number, isSelected: boolean) => {
+  const size = 26; // menor
+  const bg = isSelected ? '#fbbf24' : '#2563eb';
+  const color = isSelected ? 'black' : 'white';
+  const number = (index + 1).toString();
+
+  const html = `
+    <div style="display:flex;align-items:center;justify-content:center;width:${size}px;height:${size}px;border-radius:50%;background:${bg};color:${color};font-weight:700;font-size:12px;box-shadow:0 2px 4px rgba(0,0,0,0.3);border:2px solid white;">
+      ${number}
     </div>`;
 
-    return L.divIcon({
-        html: iconHtml,
-        className: 'bg-transparent border-0',
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-        popupAnchor: [0, -32]
-    });
+  return L.divIcon({
+    html,
+    className: 'bg-transparent border-0 p-0',
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    popupAnchor: [0, -(size / 2) - 6]
+  });
 };
 
+const getHighlightedIcon = (index: number) => {
+  const size = 36;
+  const bg = '#f59e0b';
+  const color = 'black';
+  const number = (index + 1).toString();
+
+  const html = `
+    <div style="display:flex;align-items:center;justify-content:center;width:${size}px;height:${size}px;border-radius:50%;background:${bg};color:${color};font-weight:800;font-size:14px;box-shadow:0 3px 6px rgba(0,0,0,0.35);border:3px solid white;">
+      ${number}
+    </div>`;
+
+  return L.divIcon({
+    html,
+    className: 'bg-transparent border-0 p-0',
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    popupAnchor: [0, -(size / 2) - 6]
+  });
+};
+
+// Interface para o CustomMarker (com índice para exibir número)
 interface CustomMarkerProps {
   point: KMLPoint;
+  index: number;
   isSelected: boolean;
+  currentInstructionIndex?: number;
   onSelect: (id: string, shiftKey: boolean) => void;
   onUpdate: (id: string, latlng: LatLng) => void;
   onDelete: (id: string) => void;
+  onNavigate?: (index: number) => void;
 }
 
-const CustomMarker: React.FC<CustomMarkerProps> = ({ point, isSelected, onSelect, onUpdate, onDelete }) => {
+// Ícone usado pelo draw control (pequeno marcador padrão) — reusa getNumberIcon
+const getMarkerIcon = (isSelected: boolean) => {
+  return getNumberIcon(0, isSelected);
+};
+
+const CustomMarker: React.FC<CustomMarkerProps> = ({ point, index, isSelected, currentInstructionIndex, onSelect, onUpdate, onDelete, onNavigate }) => {
   const markerRef = useRef<L.Marker>(null);
 
   return (
@@ -47,8 +81,11 @@ const CustomMarker: React.FC<CustomMarkerProps> = ({ point, isSelected, onSelect
       ref={markerRef}
       position={[point.lat, point.lng]}
       draggable={true}
-      icon={getMarkerIcon(isSelected)}
+  icon={currentInstructionIndex === index ? getHighlightedIcon(index) : getNumberIcon(index, isSelected)}
       eventHandlers={{
+        dragstart: () => {
+          try { document.dispatchEvent(new CustomEvent('suppressFitBounds')); } catch(e) {}
+        },
         dragend: () => {
           if (markerRef.current) {
             onUpdate(point.id, markerRef.current.getLatLng());
@@ -56,7 +93,12 @@ const CustomMarker: React.FC<CustomMarkerProps> = ({ point, isSelected, onSelect
         },
         click: (e) => {
           L.DomEvent.stopPropagation(e);
-          onSelect(point.id, e.originalEvent.shiftKey);
+          // Shift+click - seleção; click normal - iniciar navegação por instruções
+          if (e.originalEvent.shiftKey) {
+            onSelect(point.id, true);
+          } else if (typeof (onNavigate) === 'function') {
+            onNavigate(index);
+          }
         },
       }}
     >
@@ -73,7 +115,7 @@ const CustomMarker: React.FC<CustomMarkerProps> = ({ point, isSelected, onSelect
             <Trash2 className="mr-1 h-4 w-4" /> Excluir
           </button>
         </div>
-      </Popup>
+  </Popup>
     </Marker>
   );
 };
@@ -84,6 +126,8 @@ interface MapManagerProps {
   setSelectedPointIds: React.Dispatch<React.SetStateAction<Set<string>>>;
   onCreatePoint: (latlng: LatLng) => void;
   routeGeometry: GeoJsonObject | null;
+  currentInstructionIndex?: number;
+  setCurrentInstructionIndex?: React.Dispatch<React.SetStateAction<number>>;
 }
 
 // Componente de ajuda para seleção
@@ -125,14 +169,23 @@ const SelectionHelper: React.FC<{
   );
 };
 
-const MapManager: React.FC<MapManagerProps> = ({ points, selectedPointIds, setSelectedPointIds, onCreatePoint, routeGeometry }) => {
+const MapManager: React.FC<MapManagerProps> = ({ points, selectedPointIds, setSelectedPointIds, onCreatePoint, routeGeometry, currentInstructionIndex = 0, setCurrentInstructionIndex }) => {
   const map = useMap();
   const drawLayerRef = useRef<L.FeatureGroup>(new L.FeatureGroup());
+  const highlightRef = useRef<L.Layer | null>(null);
+  const suppressFitRef = useRef(false);
   const selectionBoxRef = useRef<L.Rectangle | null>(null);
   const isSelectingRef = useRef(false);
   const startPointRef = useRef<LatLng | null>(null);
   const [showHelper, setShowHelper] = React.useState(false);
   const [isShiftPressed, setIsShiftPressed] = React.useState(false);
+
+  // Listen for requests to suppress the automatic fitBounds (e.g. when user is dragging a marker)
+  useEffect(() => {
+    const handler = () => { suppressFitRef.current = true; };
+    document.addEventListener('suppressFitBounds', handler as EventListener);
+    return () => document.removeEventListener('suppressFitBounds', handler as EventListener);
+  }, []);
 
   useEffect(() => {
     map.addLayer(drawLayerRef.current);
@@ -325,6 +378,83 @@ const MapManager: React.FC<MapManagerProps> = ({ points, selectedPointIds, setSe
     };
   }, [map, points, selectedPointIds, setSelectedPointIds, onCreatePoint]);
 
+  // Effect para centralizar/destacar instrução atual quando o índice mudar
+  useEffect(() => {
+    if (!points || points.length === 0) return;
+    const idx = Math.max(0, Math.min(currentInstructionIndex, points.length - 1));
+    const pt = points[idx];
+    if (!pt) return;
+
+    // Centralizar
+    map.setView([pt.lat, pt.lng], Math.max(map.getZoom(), 16), { animate: true });
+
+    // Remover destaque anterior
+    if (highlightRef.current) {
+      try { map.removeLayer(highlightRef.current); } catch (e) {}
+      highlightRef.current = null;
+    }
+
+    // Adicionar círculo de destaque temporário
+    const circle = L.circleMarker([pt.lat, pt.lng], {
+      radius: 12,
+      color: '#f59e0b',
+      fillColor: '#fbbf24',
+      weight: 3,
+      opacity: 0.95,
+      fillOpacity: 0.9,
+    }).addTo(map);
+    highlightRef.current = circle;
+
+    // Remover após 3s
+    const t = setTimeout(() => {
+      if (highlightRef.current) {
+        try { map.removeLayer(highlightRef.current); } catch (e) {}
+        highlightRef.current = null;
+      }
+    }, 3000);
+
+    return () => { clearTimeout(t); };
+  }, [currentInstructionIndex, points, map]);
+
+  // Keyboard navigation for instructions
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (!setCurrentInstructionIndex) return;
+      if (points.length === 0) return;
+
+      switch (e.key) {
+        case 'ArrowLeft':
+        case 'ArrowUp':
+          e.preventDefault();
+          setCurrentInstructionIndex(prev => Math.max(0, prev - 1));
+          break;
+        case 'ArrowRight':
+        case 'ArrowDown':
+          e.preventDefault();
+          setCurrentInstructionIndex(prev => Math.min(points.length - 1, prev + 1));
+          break;
+        case 'Home':
+          e.preventDefault();
+          setCurrentInstructionIndex(0);
+          break;
+        case 'End':
+          e.preventDefault();
+          setCurrentInstructionIndex(points.length - 1);
+          break;
+        case ' ': // space
+          e.preventDefault();
+          // recenter on current
+          const idx = Math.max(0, Math.min(currentInstructionIndex, points.length - 1));
+          const pt = points[idx];
+          if (pt) map.setView([pt.lat, pt.lng], Math.max(map.getZoom(), 16), { animate: true });
+          break;
+      }
+    };
+
+    document.addEventListener('keydown', handler);
+    return () => document.removeEventListener('keydown', handler);
+  }, [points, setCurrentInstructionIndex, currentInstructionIndex, map]);
+
   // Effect adicional para garantir que os controles estejam sempre habilitados
   useEffect(() => {
     // Verificar periodicamente se os controles estão habilitados
@@ -343,13 +473,19 @@ const MapManager: React.FC<MapManagerProps> = ({ points, selectedPointIds, setSe
   }, [map]);
 
   useEffect(() => {
+    // If suppression flag is set (e.g. user dragged a marker), skip this automatic fit
+    if (suppressFitRef.current) {
+      suppressFitRef.current = false;
+      return;
+    }
+
     if (points.length > 0) {
       const bounds = new LatLngBounds(points.map(p => [p.lat, p.lng]));
       if (bounds.isValid()) {
         map.fitBounds(bounds, { padding: [50, 50] });
       }
     } else {
-        map.setView([ -27.07, -52.61 ], 5);
+      map.setView([ -27.07, -52.61 ], 5);
     }
   }, [points, map]);
 
@@ -380,6 +516,7 @@ interface MapComponentProps {
 
 const MapComponent: React.FC<MapComponentProps> = (props) => {
   const { points, selectedPointIds, setSelectedPointIds, onPointUpdate, onPointDelete, onDeleteSelected } = props;
+  const [currentInstructionIndex, setCurrentInstructionIndex] = React.useState<number>(0);
 
   const handleSelect = (id: string, shiftKey: boolean) => {
     setSelectedPointIds(prev => {
@@ -419,17 +556,27 @@ const MapComponent: React.FC<MapComponentProps> = (props) => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {points.map(point => (
+      {points.map((point, idx) => (
         <CustomMarker
           key={point.id}
           point={point}
+          index={idx}
+          currentInstructionIndex={currentInstructionIndex}
           isSelected={selectedPointIds.has(point.id)}
           onSelect={handleSelect}
           onUpdate={onPointUpdate}
           onDelete={onPointDelete}
+          onNavigate={(i: number) => setCurrentInstructionIndex(i)}
         />
       ))}
-      <MapManager {...props} />
+      {/* Linha conectando os pontos originais (atualiza automaticamente quando points mudar) */}
+      {points.length > 1 && (
+        <Polyline
+          positions={points.map(p => [p.lat, p.lng])}
+          pathOptions={{ color: '#10b981', weight: 3, opacity: 0.8 }}
+        />
+      )}
+  <MapManager {...props} currentInstructionIndex={currentInstructionIndex} setCurrentInstructionIndex={setCurrentInstructionIndex} />
     </MapContainer>
   );
 };
