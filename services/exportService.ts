@@ -113,6 +113,16 @@ const formatDuration = (seconds: number): string => {
   return `${minutes} min`;
 };
 
+// Função auxiliar para formatar tempo em horas (igual ao Sidebar)
+const formatHours = (hours: number): string => {
+  const totalMinutes = Math.round(hours * 60);
+  const h = Math.floor(totalMinutes / 60);
+  const m = totalMinutes % 60;
+  if (h === 0) return `${m} min`;
+  if (m === 0) return `${h}h`;
+  return `${h}h ${m}min`;
+};
+
 // Função auxiliar para obter ícone de manobra
 const getManeuverIcon = (type: string, modifier?: string): string => {
   const iconMap: { [key: string]: string } = {
@@ -570,7 +580,7 @@ export const generateMapAndDirectionsHTML = (optimizedRouteData: OSRMResponse, o
                 <div class="stat-item">
                     <span class="stat-label">⏱️ Tempo de Coleta:</span>
                     <span class="stat-value">${optimizedRouteData.matchings ? 
-                      formatDuration(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0) / 1000 * 3.6) : '0'}</span>
+                      formatHours(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0) / 1000 / 10) : '0'} (a 10 km/h)</span>
                 </div>
                 ${routeInfo ? `
                 <div class="stat-item">
@@ -975,7 +985,7 @@ export const generatePDF = async (optimizedRouteData: OSRMResponse, originalPoin
     
     // Adicionar tempo de coleta
     stats.push(`Tempo de Coleta: ${optimizedRouteData.matchings ? 
-      formatDuration(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0) / 1000 * 3.6) : '0'}`);
+      formatHours(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0) / 1000 / 10) : '0'} (a 10 km/h)`);
     
     // Adicionar informações da rota se disponíveis
     if (routeInfo) {
@@ -1215,7 +1225,7 @@ export const generateWord = async (optimizedRouteData: OSRMResponse, originalPoi
               new TextRun({ text: `Tempo de Coleta: `, bold: true }),
               new TextRun({ 
                 text: optimizedRouteData.matchings ? 
-                  formatDuration(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0) / 1000 * 3.6) : '0'
+                  formatHours(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0) / 1000 / 10) + ' (a 10 km/h)' : '0'
               }),
             ],
           }),
