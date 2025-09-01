@@ -1,7 +1,7 @@
 
 import React, { useRef } from 'react';
-import { OSRMResponse, KMLPoint, RouteInfo } from '../types';
-import { Clock, Route, MapPin, ArrowUp, ArrowRight, ArrowLeft, RotateCcw, ArrowUpRight, ArrowUpLeft, Map as MapIcon, Upload, Settings, Trash2, Download, FileText, Globe, FileDown, FileType, Target } from 'lucide-react';
+import { OSRMResponse, KMLPoint, RouteInfo, TSPSolution, TSPConfig } from '../types';
+import { Clock, Route, MapPin, ArrowUp, ArrowRight, ArrowLeft, RotateCcw, ArrowUpRight, ArrowUpLeft, Map as MapIcon, Upload, Settings, Trash2, Download, FileText, Globe, FileDown, FileType, Target, Navigation, Play, Square, Shuffle } from 'lucide-react';
 import Button from './ui/Button';
 import Spinner from './ui/Spinner';
 import { generateProcessedKML, generateMapAndDirectionsHTML, generatePDF, generateWord, downloadFile } from '../services/exportService';
@@ -11,6 +11,7 @@ interface SidebarProps {
   onProcessRoute: () => void;
   onDeleteSelected: () => void;
   onCleanupClusters: () => void;
+  onResetToOriginal: () => void;
   optimizedRouteData: OSRMResponse | null;
   simplificationInfo: string;
   originalPoints: KMLPoint[];
@@ -18,6 +19,18 @@ interface SidebarProps {
   isLoading: boolean;
   pointCount: number;
   selectedPointCount: number;
+  isProcessed: boolean;
+  tspMode: boolean;
+  onToggleTSPMode: () => void;
+  startPointId: string | null;
+  endPointId: string | null;
+  onSetStartPoint: (pointId: string) => void;
+  onSetEndPoint: (pointId: string) => void;
+  tspAlgorithm: TSPConfig['algorithm'];
+  onSetTspAlgorithm: (algorithm: TSPConfig['algorithm']) => void;
+  collectionRadius: number;
+  onSetCollectionRadius: (radius: number) => void;
+  tspSolution: TSPSolution | null;
 }
 
 // Formata tempo em horas e minutos a partir de horas decimais
@@ -193,13 +206,26 @@ const Sidebar: React.FC<SidebarProps> = ({
   onProcessRoute,
   onDeleteSelected,
   onCleanupClusters,
+  onResetToOriginal,
   optimizedRouteData,
   simplificationInfo,
   originalPoints,
   routeInfo,
   isLoading,
   pointCount,
-  selectedPointCount
+  selectedPointCount,
+  isProcessed,
+  tspMode,
+  onToggleTSPMode,
+  startPointId,
+  endPointId,
+  onSetStartPoint,
+  onSetEndPoint,
+  tspAlgorithm,
+  onSetTspAlgorithm,
+  collectionRadius,
+  onSetCollectionRadius,
+  tspSolution
 }) => {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -273,10 +299,181 @@ const Sidebar: React.FC<SidebarProps> = ({
               <Upload className="mr-2 h-4 w-4" />
               {pointCount > 0 ? 'Carregar Novo KML' : 'Carregar Arquivo KML'}
             </Button>
+            
+            {/* Controles TSP */}
+            <div className="border-t pt-3 mt-3">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-sm font-semibold text-gray-700">Modo Caixeiro Viajante</h3>
+                <Button 
+                  onClick={onToggleTSPMode} 
+                  disabled={isLoading}
+                  variant={tspMode ? "primary" : "secondary"}
+                  size="sm"
+                >
+                  <Shuffle className="mr-1 h-3 w-3" />
+                  {tspMode ? 'ON' : 'OFF'}
+                </Button>
+              </div>
+              
+              {tspMode && (
+                <div className="space-y-2 text-xs">
+                  <div className="bg-blue-50 p-2 rounded text-xs border">
+                    <div className="font-semibold text-blue-800 mb-1">🖱️ Como selecionar pontos:</div>
+                    <div className="text-blue-700">
+                      • <kbd className="bg-blue-200 px-1 rounded text-xs">Ctrl + Click</kbd> = Ponto inicial<br/>
+                      • <kbd className="bg-blue-200 px-1 rounded text-xs">Alt + Click</kbd> = Ponto final<br/>
+                      • <kbd className="bg-blue-200 px-1 rounded text-xs">Click</kbd> = Abrir menu do ponto
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <label className="block text-gray-600 mb-1">Algoritmo:</label>
+                    <select 
+                      value={tspAlgorithm} 
+                      onChange={(e) => onSetTspAlgorithm(e.target.value as TSPConfig['algorithm'])}
+                      className="w-full p-1 border rounded text-xs"
+                      disabled={isLoading}
+                    >
+                      <option value="nearest_neighbor">Vizinho Mais Próximo (Rápido)</option>
+                      <option value="2opt">2-opt (Melhor Qualidade)</option>
+                      <option value="genetic">Algoritmo Genético</option>
+                    </select>
+                    {pointCount > 500 && (
+                      <div className="text-xs text-orange-600 mt-1">
+                        💡 Para +500 pontos, use "Vizinho Mais Próximo" para velocidade
+                      </div>
+                    )}
+                  </div>
+                  
+                  <div>
+                    <label className="block text-gray-600 mb-1">
+                      Área de Coleta: {collectionRadius}m
+                      <span className="text-xs text-gray-500 ml-1">
+                        (pontos próximos são agrupados)
+                      </span>
+                    </label>
+                    <input
+                      type="range"
+                      min="5"
+                      max="100"
+                      step="5"
+                      value={collectionRadius}
+                      onChange={(e) => onSetCollectionRadius(Number(e.target.value))}
+                      className="w-full"
+                      disabled={isLoading}
+                    />
+                    <div className="flex justify-between text-xs text-gray-500 mt-1">
+                      <span>5m</span>
+                      <span className="text-blue-600 font-medium">{collectionRadius}m</span>
+                      <span>100m</span>
+                    </div>
+                    <div className="text-xs text-gray-600 mt-1">
+                      💡 Maior raio = menos voltas na mesma rua
+                    </div>
+                  </div>
+                  
+                  {pointCount > 0 && (
+                    <div className="bg-gray-50 p-2 rounded text-xs">
+                      <div className="flex items-center justify-between mb-1">
+                        <div className="font-semibold text-gray-700">Pontos Selecionados:</div>
+                        {(startPointId || endPointId) && (
+                          <button
+                            onClick={() => {
+                              onSetStartPoint(''); // Limpar início
+                              onSetEndPoint('');   // Limpar fim
+                            }}
+                            className="text-red-500 hover:text-red-700 text-xs underline"
+                          >
+                            Limpar tudo
+                          </button>
+                        )}
+                      </div>
+                      <div className="space-y-1">
+                        <div className="flex items-center justify-between">
+                          <span className="text-green-600">🚩 Início:</span>
+                          <div className="flex items-center">
+                            <span className="ml-2 text-gray-600 text-xs">
+                              {startPointId ? 
+                                originalPoints.find(p => p.id === startPointId)?.name || 'Ponto selecionado' : 
+                                'Ctrl+Click no mapa'
+                              }
+                            </span>
+                            {startPointId && (
+                              <button
+                                onClick={() => onSetStartPoint('')}
+                                className="ml-1 text-red-400 hover:text-red-600 text-xs"
+                              >
+                                ❌
+                              </button>
+                            )}
+                          </div>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-red-600">🎯 Fim:</span>
+                          <div className="flex items-center">
+                            <span className="ml-2 text-gray-600 text-xs">
+                              {endPointId ? 
+                                originalPoints.find(p => p.id === endPointId)?.name || 'Ponto selecionado' : 
+                                'Alt+Click no mapa'
+                              }
+                            </span>
+                            {endPointId && (
+                              <button
+                                onClick={() => onSetEndPoint('')}
+                                className="ml-1 text-red-400 hover:text-red-600 text-xs"
+                              >
+                                ❌
+                              </button>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                  
+                  <div>
+                    <label className="block text-gray-600 mb-1">Algoritmo:</label>
+                    <select 
+                      value={tspAlgorithm} 
+                      onChange={(e) => onSetTspAlgorithm(e.target.value as TSPConfig['algorithm'])}
+                      className="w-full p-1 border rounded text-xs"
+                      disabled={isLoading}
+                    >
+                      <option value="nearest_neighbor">Vizinho Mais Próximo (Rápido)</option>
+                      <option value="2opt">2-opt (Melhor Qualidade)</option>
+                      <option value="genetic">Algoritmo Genético</option>
+                    </select>
+                    {pointCount > 500 && (
+                      <div className="text-xs text-orange-600 mt-1">
+                        💡 Para +500 pontos, use "Vizinho Mais Próximo" para velocidade
+                      </div>
+                    )}
+                  </div>
+                  
+                  {tspSolution && (
+                    <div className="bg-green-50 p-2 rounded text-xs">
+                      <div className="font-semibold text-green-800">Solução TSP:</div>
+                      <div>Distância: {(tspSolution.totalDistance / 1000).toFixed(2)}km</div>
+                      <div>Iterações: {tspSolution.iterations}</div>
+                      <div>Tempo: {tspSolution.executionTime.toFixed(0)}ms</div>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+            
             <Button onClick={onProcessRoute} disabled={isLoading || pointCount < 2} variant="primary">
               {isLoading ? <Spinner /> : <Settings className="mr-2 h-4 w-4" />}
-              Processar Rota
+              {tspMode ? 'Resolver TSP' : 'Processar Rota'}
             </Button>
+            
+            {isProcessed && (
+              <Button onClick={onResetToOriginal} disabled={isLoading} variant="secondary">
+                <RotateCcw className="mr-2 h-4 w-4" />
+                Voltar ao Original
+              </Button>
+            )}
+            
             <Button onClick={onCleanupClusters} disabled={isLoading || pointCount < 3} variant="secondary">
               <Target className="mr-2 h-4 w-4" />
               Limpar Aglomerados
@@ -338,6 +535,14 @@ const Sidebar: React.FC<SidebarProps> = ({
             {isLoading ? <Spinner /> : <Settings className="mr-2 h-4 w-4" />}
             Processar Rota
           </Button>
+          
+          {isProcessed && (
+            <Button onClick={onResetToOriginal} disabled={isLoading} variant="secondary">
+              <RotateCcw className="mr-2 h-4 w-4" />
+              Voltar ao Original
+            </Button>
+          )}
+          
           <Button onClick={onCleanupClusters} disabled={isLoading || pointCount < 3} variant="secondary">
             <Target className="mr-2 h-4 w-4" />
             Limpar Aglomerados

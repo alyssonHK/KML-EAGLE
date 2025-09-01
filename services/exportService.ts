@@ -567,6 +567,11 @@ export const generateMapAndDirectionsHTML = (optimizedRouteData: OSRMResponse, o
                     <span class="stat-value">${optimizedRouteData.matchings ? 
                       formatDistance(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0)) : '0'}</span>
                 </div>
+                <div class="stat-item">
+                    <span class="stat-label">⏱️ Tempo de Coleta:</span>
+                    <span class="stat-value">${optimizedRouteData.matchings ? 
+                      formatDuration(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0) / 1000 * 3.6) : '0'}</span>
+                </div>
                 ${routeInfo ? `
                 <div class="stat-item">
                     <span class="stat-label">� Nome:</span>
@@ -968,6 +973,10 @@ export const generatePDF = async (optimizedRouteData: OSRMResponse, originalPoin
     stats.push(`Distância Total: ${optimizedRouteData.matchings ? 
       formatDistance(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0)) : '0'}`);
     
+    // Adicionar tempo de coleta
+    stats.push(`Tempo de Coleta: ${optimizedRouteData.matchings ? 
+      formatDuration(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0) / 1000 * 3.6) : '0'}`);
+    
     // Adicionar informações da rota se disponíveis
     if (routeInfo) {
       stats.push(`Nome: ${routeInfo.nome}`);
@@ -1072,8 +1081,8 @@ export const generatePDF = async (optimizedRouteData: OSRMResponse, originalPoin
 // Função para gerar Word
 export const generateWord = async (optimizedRouteData: OSRMResponse, originalPoints: KMLPoint[], routeInfo?: RouteInfo | null): Promise<void> => {
   try {
-    // Coletar direções
-    let directionParagraphs: Paragraph[] = [];
+    // Coletar direções para a tabela
+    let tableRows: TableRow[] = [];
     
     if (optimizedRouteData.matchings && optimizedRouteData.matchings.length > 0) {
       const matching = optimizedRouteData.matchings[0];
@@ -1084,49 +1093,91 @@ export const generateWord = async (optimizedRouteData: OSRMResponse, originalPoi
       );
       const consolidatedSteps = consolidateConsecutiveStreets(filteredSteps);
       
-      directionParagraphs = consolidatedSteps.map((step, index) => {
-        let instruction = getManeuverInstruction(step.maneuver);
-        if (step.name && step.name !== step.maneuver?.modifier) {
-          instruction += ` em direção à ${step.name}`;
-        }
+      // Criar cabeçalho da tabela
+      const headerRow = new TableRow({
+        children: [
+          new TableCell({
+            children: [new Paragraph({ 
+              children: [new TextRun({ text: "Passo", bold: true })],
+              alignment: "center"
+            })],
+            width: { size: 8, type: WidthType.PERCENTAGE },
+            shading: { fill: "E5E7EB" },
+          }),
+          new TableCell({
+            children: [new Paragraph({ 
+              children: [new TextRun({ text: "Instrução", bold: true })],
+              alignment: "center"
+            })],
+            width: { size: 52, type: WidthType.PERCENTAGE },
+            shading: { fill: "E5E7EB" },
+          }),
+          new TableCell({
+            children: [new Paragraph({ 
+              children: [new TextRun({ text: "Rua/Estrada", bold: true })],
+              alignment: "center"
+            })],
+            width: { size: 28, type: WidthType.PERCENTAGE },
+            shading: { fill: "E5E7EB" },
+          }),
+          new TableCell({
+            children: [new Paragraph({ 
+              children: [new TextRun({ text: "Distância (m)", bold: true })],
+              alignment: "center"
+            })],
+            width: { size: 12, type: WidthType.PERCENTAGE },
+            shading: { fill: "E5E7EB" },
+          }),
+        ],
+      });
+      
+      tableRows.push(headerRow);
+      
+      // Adicionar linhas de dados
+      consolidatedSteps.forEach((step, index) => {
+        const instruction = getManeuverInstruction(step.maneuver);
+        const street = step.name && step.name.trim() !== '' ? step.name : '-';
+        const distanceInMeters = Math.round(step.distance);
         
-        const distance = formatDistance(step.distance);
+        const dataRow = new TableRow({
+          children: [
+            new TableCell({
+              children: [new Paragraph({ 
+                children: [new TextRun({ text: (index + 1).toString() })],
+                alignment: "center"
+              })],
+            }),
+            new TableCell({
+              children: [new Paragraph({ children: [new TextRun({ text: instruction })] })],
+            }),
+            new TableCell({
+              children: [new Paragraph({ children: [new TextRun({ text: street })] })],
+            }),
+            new TableCell({
+              children: [new Paragraph({ 
+                children: [new TextRun({ text: distanceInMeters.toString() })],
+                alignment: "center"
+              })],
+            }),
+          ],
+        });
         
-        const paragraphs = [
-          new Paragraph({
-            children: [
-              new TextRun({ text: `${index + 1}. `, bold: true }),
-              new TextRun({ text: `${instruction}` }),
-              new TextRun({ text: ` - ${distance}`, color: "2563eb", bold: true }),
-            ],
-          })
-        ];
-        
-        if (step.originalSteps.length > 1) {
-          paragraphs.push(
-            new Paragraph({
-              children: [
-                new TextRun({ 
-                  // text: `   (${step.originalSteps.length} segmentos consolidados)`,
-                  size: 18,
-                  color: "666666",
-                }),
-              ],
-            })
-          );
-        }
-        
-        return paragraphs;
-      }).flat();
+        tableRows.push(dataRow);
+      });
     }
+
+    // Determinar título baseado no nome do setor
+    const reportTitle = routeInfo?.nome ? 
+      `Relatório de Rota - ${routeInfo.nome}` : 
+      'Relatório de Rota - KML Eagle';
 
     const doc = new Document({
       sections: [{
         properties: {},
         children: [
-          // Título
+          // Título personalizado com nome do setor
           new Paragraph({
-            text: "Relatório de Rota - KML Eagle",
+            text: reportTitle,
             heading: HeadingLevel.TITLE,
           }),
           
@@ -1155,6 +1206,16 @@ export const generateWord = async (optimizedRouteData: OSRMResponse, originalPoi
               new TextRun({ 
                 text: optimizedRouteData.matchings ? 
                   formatDistance(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0)) : '0'
+              }),
+            ],
+          }),
+          
+          new Paragraph({
+            children: [
+              new TextRun({ text: `Tempo de Coleta: `, bold: true }),
+              new TextRun({ 
+                text: optimizedRouteData.matchings ? 
+                  formatDuration(optimizedRouteData.matchings.reduce((sum, m) => sum + m.distance, 0) / 1000 * 3.6) : '0'
               }),
             ],
           }),
@@ -1191,13 +1252,22 @@ export const generateWord = async (optimizedRouteData: OSRMResponse, originalPoi
           
           new Paragraph({ text: "" }), // Linha em branco
           
-          // Direções
+          // Direções em formato de tabela
           new Paragraph({
             text: "Direções Passo a Passo",
             heading: HeadingLevel.HEADING_1,
           }),
           
-          ...directionParagraphs
+          new Paragraph({ text: "" }), // Linha em branco
+          
+          // Tabela de direções
+          new Table({
+            rows: tableRows,
+            width: {
+              size: 100,
+              type: WidthType.PERCENTAGE,
+            },
+          }),
         ],
       }],
     });

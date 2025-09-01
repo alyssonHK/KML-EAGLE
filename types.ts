@@ -6,6 +6,9 @@ export interface KMLPoint {
   name: string;
   lat: number;
   lng: number;
+  isStartPoint?: boolean;
+  isEndPoint?: boolean;
+  visitOrder?: number;
 }
 
 export interface RouteInfo {
@@ -30,6 +33,23 @@ export interface ProcessRouteResult {
     routeGeometry: GeoJsonObject;
     directions: Direction[];
     info: string;
+}
+
+// Tipos para o Problema do Caixeiro Viajante (TSP)
+export interface TSPSolution {
+    route: KMLPoint[];
+    totalDistance: number;
+    totalDuration: number;
+    iterations: number;
+    executionTime: number;
+}
+
+export interface TSPConfig {
+    startPointId?: string;
+    endPointId?: string;
+    algorithm: 'nearest_neighbor' | 'genetic' | '2opt';
+    maxIterations?: number;
+    collectionRadius?: number; // Raio da área de coleta em metros
 }
 
 // Tipos para compatibilidade com OSRM

@@ -5,12 +5,14 @@ import Sidebar from './components/Sidebar';
 import MapComponent from './components/MapComponent';
 import Header from './components/Header';
 import RouteInfoModal from './components/RouteInfoModal';
-import { KMLPoint, OSRMResponse, ProcessRouteResult, RouteInfo } from './types';
+import { KMLPoint, OSRMResponse, ProcessRouteResult, RouteInfo, TSPSolution, TSPConfig } from './types';
 import { parseKML } from './services/kmlParser';
 import { processRoute } from './services/osrmService';
+import { solveTSP, validateTSPConfig } from './services/tspService';
 
 export default function App() {
   const [points, setPoints] = useState<KMLPoint[]>([]);
+  const [originalPoints, setOriginalPoints] = useState<KMLPoint[]>([]); // Preservar pontos originais
   const [selectedPointIds, setSelectedPointIds] = useState<Set<string>>(new Set());
   const [optimizedRouteData, setOptimizedRouteData] = useState<OSRMResponse | null>(null);
   const [simplificationInfo, setSimplificationInfo] = useState<string>('');
@@ -20,6 +22,15 @@ export default function App() {
   const [routeInfo, setRouteInfo] = useState<RouteInfo | null>(null);
   const [showRouteInfoModal, setShowRouteInfoModal] = useState(false);
   const [pendingFile, setPendingFile] = useState<File | null>(null);
+  const [isProcessed, setIsProcessed] = useState<boolean>(false); // Controlar estado processado
+  
+  // Estados TSP
+  const [tspSolution, setTspSolution] = useState<TSPSolution | null>(null);
+  const [tspMode, setTspMode] = useState<boolean>(false);
+  const [startPointId, setStartPointId] = useState<string | null>(null);
+  const [endPointId, setEndPointId] = useState<string | null>(null);
+  const [tspAlgorithm, setTspAlgorithm] = useState<TSPConfig['algorithm']>('2opt');
+  const [collectionRadius, setCollectionRadius] = useState<number>(20);
 
   const handleFileLoad = async (file: File) => {
     // Mostrar modal para coletar informações da rota
@@ -34,10 +45,17 @@ export default function App() {
     setIsLoading(true);
     setError(null);
     setPoints([]);
+    setOriginalPoints([]); // Limpar pontos originais também
     setOptimizedRouteData(null);
     setSimplificationInfo('');
     setRouteGeometry(null);
     setSelectedPointIds(new Set());
+    setIsProcessed(false);
+    
+    // Resetar estados TSP
+    setTspSolution(null);
+    setStartPointId(null);
+    setEndPointId(null);
     
     try {
       const reader = new FileReader();
@@ -48,8 +66,11 @@ export default function App() {
             const parsedPoints = parseKML(text);
             if (parsedPoints.length === 0) {
               setError("Nenhuma coordenada encontrada no arquivo KML.");
+            } else {
+              setPoints(parsedPoints);
+              setOriginalPoints([...parsedPoints]); // Salvar cópia dos pontos originais
+              setSimplificationInfo(`Carregados ${parsedPoints.length} pontos do arquivo KML.`);
             }
-            setPoints(parsedPoints);
           } catch (err) {
             setError("Falha ao analisar o arquivo KML. Por favor, verifique o formato do arquivo.");
             console.error(err);
@@ -131,12 +152,23 @@ export default function App() {
     const minDistance = 25; // Distância mínima em metros entre pontos consecutivos
     const cleanedPoints: KMLPoint[] = [];
     
+    // Identificar pontos de início e fim atuais
+    const currentStartPoint = startPointId ? points.find(p => p.id === startPointId) : null;
+    const currentEndPoint = endPointId ? points.find(p => p.id === endPointId) : null;
+    
     // Sempre manter o primeiro ponto
     cleanedPoints.push(points[0]);
     
     for (let i = 1; i < points.length - 1; i++) {
       const currentPoint = points[i];
       const lastKeptPoint = cleanedPoints[cleanedPoints.length - 1];
+      
+      // Se é um ponto de início ou fim do TSP, sempre manter
+      if ((currentStartPoint && currentPoint.id === currentStartPoint.id) ||
+          (currentEndPoint && currentPoint.id === currentEndPoint.id)) {
+        cleanedPoints.push(currentPoint);
+        continue;
+      }
       
       const distance = calculateDistance(
         currentPoint.lat, 
@@ -156,17 +188,67 @@ export default function App() {
       cleanedPoints.push(points[points.length - 1]);
     }
     
-    // Atualizar os pontos e limpar seleções
+    // Verificar se os pontos de início e fim ainda existem, se não, ajustar
+    let newStartPointId = startPointId;
+    let newEndPointId = endPointId;
+    
+    if (startPointId && !cleanedPoints.find(p => p.id === startPointId)) {
+      // Se o ponto de início foi removido, usar o primeiro ponto
+      newStartPointId = cleanedPoints[0]?.id || null;
+      console.log('Ponto de início foi ajustado para o primeiro ponto após limpeza');
+    }
+    
+    if (endPointId && !cleanedPoints.find(p => p.id === endPointId)) {
+      // Se o ponto final foi removido, usar o último ponto
+      newEndPointId = cleanedPoints[cleanedPoints.length - 1]?.id || null;
+      console.log('Ponto final foi ajustado para o último ponto após limpeza');
+    }
+    
+    // Atualizar os pontos e ajustar pontos de TSP se necessário
     setPoints(cleanedPoints);
     setSelectedPointIds(new Set());
     
+    if (newStartPointId !== startPointId) {
+      setStartPointId(newStartPointId);
+    }
+    if (newEndPointId !== endPointId) {
+      setEndPointId(newEndPointId);
+    }
+    
     // Mostrar feedback ao usuário
     const removedCount = points.length - cleanedPoints.length;
+    let message = '';
+    
     if (removedCount > 0) {
-      alert(`${removedCount} ponto(s) próximo(s) foram removidos. Pontos restantes: ${cleanedPoints.length}`);
+      message = `${removedCount} ponto(s) próximo(s) foram removidos. Pontos restantes: ${cleanedPoints.length}`;
+      
+      // Adicionar informação sobre ajustes nos pontos TSP
+      if (newStartPointId !== startPointId || newEndPointId !== endPointId) {
+        message += '\n\n⚠️ Pontos de início/fim do TSP foram ajustados automaticamente para manter a funcionalidade.';
+      }
     } else {
-      alert('Nenhum ponto muito próximo foi encontrado para remoção.');
+      message = 'Nenhum ponto muito próximo foi encontrado para remoção.';
     }
+    
+    alert(message);
+  };
+
+  // Função para resetar para o estado original (não processado)
+  const handleResetToOriginal = () => {
+    if (originalPoints.length === 0) {
+      setError("Não há pontos originais para restaurar.");
+      return;
+    }
+
+    setPoints([...originalPoints]);
+    setOptimizedRouteData(null);
+    setRouteGeometry(null);
+    setTspSolution(null);
+    setSelectedPointIds(new Set());
+    setStartPointId(null);
+    setEndPointId(null);
+    setIsProcessed(false);
+    setSimplificationInfo(`Restaurados ${originalPoints.length} pontos originais. Pronto para reprocessamento.`);
   };
 
   const handleProcessRoute = async () => {
@@ -177,16 +259,141 @@ export default function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const result = await processRoute(points);
-      setOptimizedRouteData(result.response);
-      setSimplificationInfo(result.info);
-      setRouteGeometry(result.routeGeometry);
+      if (tspMode) {
+        // Processar como TSP
+        await handleProcessTSP();
+      } else {
+        // Processar rota sequencial normal
+        const result = await processRoute(points);
+        setOptimizedRouteData(result.response);
+        setSimplificationInfo(result.info);
+        setRouteGeometry(result.routeGeometry);
+        setIsProcessed(true); // Marcar como processado
+      }
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : "Ocorreu um erro desconhecido durante o processamento da rota.";
       setError(errorMessage);
       console.error(err);
     } finally {
       setIsLoading(false);
+    }
+  };
+
+  const handleProcessTSP = async () => {
+    if (points.length < 2) {
+      setError("São necessários pelo menos dois pontos para resolver o TSP.");
+      return;
+    }
+
+    const config: TSPConfig = {
+      startPointId: startPointId,
+      endPointId: endPointId,
+      algorithm: tspAlgorithm,
+      maxIterations: 1000,
+      collectionRadius: collectionRadius
+    };
+
+    // Validar configuração com auto-correção
+    const validation = validateTSPConfig(points, config);
+    if (validation.errors.length > 0) {
+      setError(validation.errors.join('; '));
+      return;
+    }
+
+    // Usar configuração corrigida se houve ajustes
+    const finalConfig = validation.correctedConfig;
+    
+    // Atualizar estados se houve correções nos pontos de início/fim
+    if (finalConfig.startPointId !== startPointId) {
+      setStartPointId(finalConfig.startPointId);
+      console.log('Ponto de início ajustado automaticamente');
+    }
+    if (finalConfig.endPointId !== endPointId) {
+      setEndPointId(finalConfig.endPointId);
+      console.log('Ponto final ajustado automaticamente');
+    }
+
+    // Mostrar feedback se houve ajustes
+    let adjustmentMessage = '';
+    if (finalConfig.startPointId !== startPointId || finalConfig.endPointId !== endPointId) {
+      adjustmentMessage = '⚠️ Pontos de início/fim foram ajustados automaticamente após limpeza. ';
+    }
+
+    try {
+      console.log('Resolvendo TSP...');
+      
+      // Mostrar aviso para muitos pontos
+      if (points.length > 1000 && tspAlgorithm === '2opt') {
+        setSimplificationInfo(`⏳ Processando ${points.length} pontos com 2-opt - isso pode demorar alguns minutos...`);
+      } else if (points.length > 500) {
+        setSimplificationInfo(`⏳ Processando ${points.length} pontos...`);
+      }
+      
+      const solution = await solveTSP(points, finalConfig);
+      setTspSolution(solution);
+      
+      // Processar a rota otimizada com OSRM
+      const result = await processRoute(solution.route);
+      setOptimizedRouteData(result.response);
+      setSimplificationInfo(`${adjustmentMessage}✅ TSP: ${solution.iterations} iterações, ${(solution.executionTime).toFixed(0)}ms, ${(solution.totalDistance/1000).toFixed(2)}km. ${result.info}`);
+      setRouteGeometry(result.routeGeometry);
+      
+      // Atualizar pontos com ordem de visita
+      setPoints(solution.route);
+      setIsProcessed(true); // Marcar como processado
+      
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Erro ao resolver TSP";
+      setError(errorMessage);
+      console.error(err);
+    }
+  };
+
+  const handleToggleTSPMode = () => {
+    setTspMode(!tspMode);
+    setTspSolution(null);
+    setStartPointId(null);
+    setEndPointId(null);
+    setOptimizedRouteData(null);
+    setRouteGeometry(null);
+    setSimplificationInfo('');
+  };
+
+  const handleSetStartPoint = (pointId: string) => {
+    if (startPointId === pointId || pointId === '') {
+      setStartPointId(null);
+      setSimplificationInfo('Ponto inicial removido');
+      // Limpar mensagem após 2 segundos
+      setTimeout(() => setSimplificationInfo(''), 2000);
+    } else {
+      setStartPointId(pointId);
+      // Se o ponto final é o mesmo, limpar
+      if (endPointId === pointId) {
+        setEndPointId(null);
+      }
+      const point = points.find(p => p.id === pointId);
+      setSimplificationInfo(point ? `🏁 Ponto inicial definido: ${point.name}` : '🏁 Ponto inicial definido');
+      // Limpar mensagem após 3 segundos
+      setTimeout(() => setSimplificationInfo(''), 3000);
+    }
+  };
+
+  const handleSetEndPoint = (pointId: string) => {
+    if (endPointId === pointId || pointId === '') {
+      setEndPointId(null);
+      setSimplificationInfo('Ponto final removido');
+      // Limpar mensagem após 2 segundos
+      setTimeout(() => setSimplificationInfo(''), 2000);
+    } else {
+      setEndPointId(pointId);
+      // Se o ponto inicial é o mesmo, limpar
+      if (startPointId === pointId) {
+        setStartPointId(null);
+      }
+      const point = points.find(p => p.id === pointId);
+      setSimplificationInfo(point ? `🏆 Ponto final definido: ${point.name}` : '🏆 Ponto final definido');
+      // Limpar mensagem após 3 segundos
+      setTimeout(() => setSimplificationInfo(''), 3000);
     }
   };
 
@@ -205,13 +412,26 @@ export default function App() {
           onProcessRoute={handleProcessRoute}
           onDeleteSelected={handleDeleteSelected}
           onCleanupClusters={handleCleanupClusters}
+          onResetToOriginal={handleResetToOriginal}
           optimizedRouteData={optimizedRouteData}
           simplificationInfo={simplificationInfo}
-          originalPoints={points}
+          originalPoints={originalPoints}
           routeInfo={routeInfo}
           isLoading={isLoading}
           pointCount={points.length}
           selectedPointCount={selectedPointIds.size}
+          isProcessed={isProcessed}
+          tspMode={tspMode}
+          onToggleTSPMode={handleToggleTSPMode}
+          startPointId={startPointId}
+          endPointId={endPointId}
+          onSetStartPoint={handleSetStartPoint}
+          onSetEndPoint={handleSetEndPoint}
+          tspAlgorithm={tspAlgorithm}
+          onSetTspAlgorithm={setTspAlgorithm}
+          collectionRadius={collectionRadius}
+          onSetCollectionRadius={setCollectionRadius}
+          tspSolution={tspSolution}
         />
         <main className="flex-1 h-full">
           <MapComponent
@@ -223,6 +443,11 @@ export default function App() {
             onCreatePoint={handleCreatePoint}
             routeGeometry={routeGeometry}
             onDeleteSelected={handleDeleteSelected}
+            tspMode={tspMode}
+            startPointId={startPointId}
+            endPointId={endPointId}
+            onSetStartPoint={handleSetStartPoint}
+            onSetEndPoint={handleSetEndPoint}
           />
         </main>
       </div>
